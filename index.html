@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Inicio de sesion - Peliculas</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="principal">
+        <img src="imagenes/logo-header.png" alt="logo de peliculas">
+    </header>
+    <main>
+        <form action="nav/peliculas.html">
+            <label for="labelcorreo">Correo</label>
+            <input class="correo" id="labelcorreo" correoUsuario(usuario) type="email" placeholder="sena@edu.co" required>
+            
+            <label for="labelcontraseña">Contraseña</label>
+            <input class="contraseña" id="labelcontraseña" type="password" required>
+    
+            <label id="textterminos"><input type="checkbox" required>Acepta los <a href="tyc.html">terminos y condiciones</a></label>
+            
+            <input class="enviar" type="submit" value="Iniciar"></input>
+        </form>
+    </main>
+</body>
+<footer>
+    <img src="imagenes/logo-pie.png" alt="logo de peliculas">
+    <p>2024 &copy; Copyright Luis Arturo Ospino SENA</p>
+</footer>
+<script src="script.js"></script>
+</html>

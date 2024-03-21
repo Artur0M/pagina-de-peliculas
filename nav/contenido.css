@@ -1,0 +1,98 @@
+/* html general */
+
+body {
+    background: #D8DFE8;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    margin: auto;
+}
+
+.secundario {
+    background: #0A3871;
+}
+
+header img {
+    position: absolute;
+    width: 200px;
+    margin: 0 30px;
+    cursor: pointer;
+}
+
+nav ul {
+    margin: 0;
+    padding: 20px;
+    text-align: right;
+}
+
+nav li{
+    display: inline;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 0 10px;
+}
+
+nav a:hover{
+    color: yellow;
+    font-size: 1.53em;
+}
+
+.banner {
+    width: 100%;
+}
+
+.texto-inicio{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.producto {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.producto ul{
+    display: flex;
+}
+
+.portada {
+    width: 250px;
+}
+
+.producto li{
+    padding: 0 10px;
+    list-style: none;
+}
+
+.producto h3{
+    margin: auto;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.producto iframe {
+    width: 400px;
+    height: 240px;
+}
+
+footer {
+    background: #000000;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer img{
+    width: 200px;
+}
+
+footer p{
+    color: #FFFFFF;
+    font-size: 0.8em;
+}
